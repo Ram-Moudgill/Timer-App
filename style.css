@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(27, 26, 26, 0.589);
+    color: white;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+#set-timer
+{
+    outline: none;
+    background-color: white;
+    width: 150px;
+    height: 28px;
+    border: none;
+    border-radius: 8px;
+    color: rgba(27, 26, 26, 0.589);
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: center;
+}
+#btn{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 120px;
+    height: 30px;
+    margin-top: 20px;
+    outline: none;
+}
